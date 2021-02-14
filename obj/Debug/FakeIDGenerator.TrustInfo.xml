@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?><trustInfo xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2"><security><applicationRequestMinimum><PermissionSet version="1" class="System.Security.NamedPermissionSet" Name="LocalIntranet" Description="Default rights given to applications on the local intranet" Unrestricted="true" ID="Custom" SameSite="site" /><defaultAssemblyRequest permissionSetReference="Custom" /></applicationRequestMinimum><requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3"><!-- Opcje manifestu Kontroli konta użytkownika
+             Jeśli chcesz zmienić poziom Kontroli konta użytkownika systemu Windows, zastąp 
+             węzeł requestedExecutionLevel jednym z następujących.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+            Określenie elementu requestedExecutionLevel spowoduje wyłączenie wirtualizacji plików i rejestru. 
+            Usuń ten element, jeśli aplikacja wymaga wirtualizacji w celu zachowania
+            zgodności z poprzednimi wersjami.
+        --><requestedExecutionLevel level="asInvoker" uiAccess="false" /></requestedPrivileges></security></trustInfo>
